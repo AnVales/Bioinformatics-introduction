@@ -41,6 +41,6 @@ def print_frequency_nucleotide_dict(chain, dict):
 
 # calculate the frecuency of the nucleotides 
 frecuency_aa = frequency_nucleotide_dict(nuc_chain)
-print_frequency_nucleotide_dict(nuc_chain,frecuency_aa)
+print_frequency_nucleotide_dict(nuc_chain,frecuency_aa) 
 
 
