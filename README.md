@@ -1,7 +1,27 @@
-# Bioinformatics-introduction
+# 🧬 Bioinformatics Introduction
 
-Some scripts for introduction to bioinformatics
+This repository contains exercises on **nucleotide analysis** using Python, including:
 
-- exercise_1.1.py: With this python script it is possible to find a subsequence and determine the number of times that it appears in the chain and the positions of the first element of the subsequence. Also, the script can determine the number of nucleotides that are between two subsequences.
+- 🔹 **Exercise 1.1** – Search for substrings in a nucleotide chain and determine their positions.
+- 🔹 **Exercise 1.2** – Calculate the frequency of nucleotides (A, C, G, T) in a given chain.
 
-- exercise_1.2.py: In this exercise, with a python script the frequency of each nucleotid (A/T/C/G) in a sequence is going to be indicated. 
+## 📝 Example Output
+
+**Exercise 1.1**  
+- Substrings found with their positions  
+- Distance (in nucleotides) between specific substrings  
+
+**Exercise 1.2**  
+- Frequency (%) of each nucleotide in the chain  
+- Verification that total adds up to 100%  
+
+## 🐍 Scripts
+
+- `exercise_1.1.py` – Substring search and positions  
+- `exercise_1.2.py` – Nucleotide frequency calculation  
+
+## 🚀 How to Run
+
+```bash
+python exercise_1.1.py
+python exercise_1.2.py
